@@ -19,7 +19,7 @@ function setup(){
     World.add(world,ground);
     
     var ball_options ={
-        restitution: 4.0
+        restitution: 1.0
     }
 
     ball = Bodies.circle(200, 100, 20, ball_options);
